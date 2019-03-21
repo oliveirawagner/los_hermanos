@@ -1,0 +1,99 @@
+/*comando para centralizar o conteudo*/
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/*------------------------tag solitaria------------------------*/
+nav{/*tag do html5 que indica menu de navegacao*/
+    height:50px;
+    width: 100%;
+    background-color: #403F3E;
+}
+
+header{
+    height:400px;
+    width:100%;
+    background-color: #9FFEFF; 
+
+}
+
+a{
+    text-decoration:none;/*comando usado para tirar o sublinado onde clica*/
+    color:#FFFDF7;/*tira o azul padrao onde clica no menu na tag 'a'*/ 
+}
+
+li{
+    list-style:none;/*comando para tirar bolinha*/
+
+}
+footer{
+    height:150px;
+    width:100%;
+    background-color: #403F3E;
+}
+h1{
+    height:60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+
+}
+
+/*------------------------tags normais------------------------*/
+.main{
+    min-height:800px;
+    height:auto;/*comando para aumentar de acordo com os dados inseridos, precisa de um tamanho minimo*/
+    width: 1200px;
+    background-color: #FFFDF7;
+}
+
+
+.suport_menu{
+  height: 50px;
+  width:100%;
+}
+
+.item_menu{
+    height:25px;
+    width: 25%;
+    float: left;/*joga o conteudo para cima do lado direito*/
+    margin-top:12.5px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #000;
+
+}
+
+a:hover{
+    color:#9FFEFF;
+}
+
+.conteiner{
+    min-height:900px;
+    height:auto;
+    width:1200px;
+    background-color: #000;
+}
+
+.titulo{
+    height:60px;
+    width:100%;
+    color:#9FFEFF;
+    text-align: center; 
+}
+
+.suport_product{
+    width:98%;
+    min-height:300px; 
+    height:auto;
+}
+
+.item_product{
+    width: 30%;
+    height:300px;
+    background-color: crimson;
+    float: left;
+    margin-left: 2.7%;
+    margin-top:20px;
+}
