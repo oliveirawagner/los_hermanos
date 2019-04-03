@@ -12,10 +12,14 @@ nav{/*tag do html5 que indica menu de navegacao*/
 }
 
 header{
-    height:400px;
+    height:700px;
     width:100%;
     background-color: #9FFEFF; 
 
+}
+.conteiner,.carousel-inner{
+    height:700px;
+    width:100%;
 }
 
 a{
@@ -32,9 +36,10 @@ footer{
     width:100%;
     background-color: #403F3E;
 }
-h1{
+.titulo{
     height:60px;
     font-weight: bold;
+    font-size: 30px;
     text-transform: uppercase;
     text-decoration-line: underline;
 
@@ -42,9 +47,9 @@ h1{
 
 /*------------------------tags normais------------------------*/
 .main{
-    min-height:800px;
+    min-height:640px;
     height:auto;/*comando para aumentar de acordo com os dados inseridos, precisa de um tamanho minimo*/
-    width: 1200px;
+    width: 100%;
     background-color: #FFFDF7;
 }
 
@@ -69,15 +74,20 @@ a:hover{
     color:#9FFEFF;
 }
 
-.conteiner{
+.conteiner_main{
     min-height:900px;
     height:auto;
-    width:1200px;
+    width:100%;
     background-color: #000;
+    background-image: url('../imagens/back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.titulo{
-    height:60px;
+
+.title_pizza{
+    height:40px;
     width:100%;
     color:#9FFEFF;
     text-align: center; 
@@ -95,5 +105,5 @@ a:hover{
     background-color: crimson;
     float: left;
     margin-left: 2.7%;
-    margin-top:20px;
+    
 }
